@@ -379,7 +379,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "episodio12/episodio12-Prefix.pch";
 				INFOPLIST_FILE = "episodio12/episodio12-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = episodio12;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,7 +392,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "episodio12/episodio12-Prefix.pch";
 				INFOPLIST_FILE = "episodio12/episodio12-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = episodio12;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -413,7 +413,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "episodio12Tests/episodio12Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = episodio12Tests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -431,7 +431,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "episodio12/episodio12-Prefix.pch";
 				INFOPLIST_FILE = "episodio12Tests/episodio12Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = episodio12Tests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -456,6 +456,7 @@
 				A4F6D1611940AAFA001A9D96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4F6D1621940AAFA001A9D96 /* Build configuration list for PBXNativeTarget "episodio12Tests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +465,7 @@
 				A4F6D1641940AAFA001A9D96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
